@@ -1,0 +1,45 @@
+{
+  "name": "coronavirus-rs",
+  "private": true,
+  "author": "Leonardo Pinheiro",
+  "description": "Estatísticas de casos de Coronavírus no estado do Rio Grande do Sul.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.19.43",
+    "gatsby-plugin-google-analytics": "^2.1.38",
+    "gatsby-plugin-manifest": "^2.2.48",
+    "gatsby-plugin-nprogress": "^2.1.21",
+    "gatsby-plugin-offline": "^3.0.41",
+    "gatsby-plugin-page-creator": "^2.1.46",
+    "gatsby-plugin-react-helmet": "^3.1.24",
+    "gatsby-plugin-styled-components": "^3.1.21",
+    "react": "^16.12.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

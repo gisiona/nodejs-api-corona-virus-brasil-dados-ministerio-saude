@@ -1,0 +1,31 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Api Rest desenvolvido em NodeJS com dados consolidados sobre a evolução do Corona Virus - COVID-19 no Brasil. Os dados são de responsabilidade e disponível no site do Ministério da Saúde.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gisiona/nodejs-api-corona-virus-brasil-dados-ministerio-saude.git"
+  },
+  "keywords": [
+    "Api",
+    "Rest",
+    "Corona",
+    "Virus",
+    "COVID-19",
+    "NodeJS"
+  ],
+  "author": "Gisiona Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gisiona/nodejs-api-corona-virus-brasil-dados-ministerio-saude/issues"
+  },
+  "homepage": "https://github.com/Gisiona/nodejs-api-corona-virus-brasil-dados-ministerio-saude#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
